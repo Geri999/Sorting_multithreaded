@@ -13,5 +13,6 @@ public class App {
         TablePrinter.tablePrinterINT(tableOryginal);
         TablePrinter.tablePrinterINT(tableSortedDesc);
         TablePrinter.tablePrinterINT(tableSortedAsc);
+
     }
 }

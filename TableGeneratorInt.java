@@ -12,5 +12,6 @@ public class TableGeneratorInt {
             table[i] = (int) (Math.random() * (highestNumberAbs + 1))*(Math.random()>0.5? 1:-1);
         }
         return table;
+
     }
 }

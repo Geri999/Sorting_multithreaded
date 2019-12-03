@@ -1,8 +1,7 @@
-package Sortowanie;
+package ZadaniaCAMP.Sortowanie;
 /**
- * Created by Gerard Podgórski on 03-12-19 [NowyProjekt/Sortowanie]
+ * Created by Gerard Podgórski on 03-12-19 [NowyProjekt/ZadaniaCAMP.Sortowanie]
  */
-
 public class TablePrinter {
 
     public static void tablePrinterINT(int[] table){

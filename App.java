@@ -1,9 +1,7 @@
-package Sortowanie;
+package ZadaniaCAMP.Sortowanie;
 /**
- * Created by Gerard Podgórski on 03-12-19 [NowyProjekt/Sortowanie]
+ * Created by Gerard Podgórski on 03-12-19 [NowyProjekt/ZadaniaCAMP.Sortowanie]
  */
-
-
 public class App {
 
     public static void main(String[] args) {
@@ -15,7 +13,5 @@ public class App {
         TablePrinter.tablePrinterINT(tableOryginal);
         TablePrinter.tablePrinterINT(tableSortedDesc);
         TablePrinter.tablePrinterINT(tableSortedAsc);
-
-
     }
 }

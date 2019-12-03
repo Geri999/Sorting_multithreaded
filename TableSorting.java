@@ -1,12 +1,10 @@
-package Sortowanie;
+package ZadaniaCAMP.Sortowanie;
 /**
- * Created by Gerard Podgórski on 03-12-19 [NowyProjekt/Sortowanie]
+ * Created by Gerard Podgórski on 03-12-19 [NowyProjekt/ZadaniaCAMP.Sortowanie]
  */
-
 import java.util.Arrays;
 
 public class TableSorting {
-
 
     public static int[] tableSortingIntDesc(int[] tableOryginal) {
 
@@ -29,7 +27,7 @@ public class TableSorting {
             tableSorted[i] = temporaryBiggest;
             tableOryginalCopy[indeksOfTheBiggestValue] = tableOryginalCopy[indeks2 - 1]; // ost. element wchodzi na miejsce
             // tego najwyższego w tym przebiegu.
-            indeks2--;  //wirualnie skramy tablicę o ostatni element
+            indeks2--;  //wirualnie skracamy tablicę o ostatni element
 
         }
         return tableSorted;

@@ -1,4 +1,4 @@
-package ZadaniaCAMP.Sortowanie;
+package pl.bci.g73.ITCAMP.ZadaniaCAMP.Sortowanie;
 /**
  * Created by Gerard Podgórski on 03-12-19 [NowyProjekt/ZadaniaCAMP.Sortowanie]
  */

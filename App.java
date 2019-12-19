@@ -13,9 +13,9 @@ public class App {
         int numberOfArrays;
 
         if (args.length != 0) {
-            tableSize = Integer.parseInt(args[0]);
-            highestNumberAbs = Integer.parseInt(args[1]);
-            numberOfArrays = Integer.parseInt(args[2]);
+            numberOfArrays = Integer.parseInt(args[0]);
+            tableSize = Integer.parseInt(args[1]);
+            highestNumberAbs = Integer.parseInt(args[2]);
 
         } else {
             Scanner scanner = new Scanner(System.in);
@@ -31,8 +31,8 @@ public class App {
             System.out.print("");
         }
 
-
         for (int i = 0; i < numberOfArrays; i++) {
             new ThreadTest(tableSize, highestNumberAbs).start();
         }
-    }}
+    }
+}

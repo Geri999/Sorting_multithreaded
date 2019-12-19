@@ -1,4 +1,5 @@
 package pl.bci.g73.ITCAMP.ZadaniaCAMP.Sortowanie;
+
 /**
  * Created by Gerard Podgórski on 03-12-19 [NowyProjekt/ZadaniaCAMP.Sortowanie]
  */
@@ -9,7 +10,7 @@ public class TableGeneratorInt {
         int[] table = new int[tableSize];
 
         for (int i = 0; i < tableSize; i++) {
-            table[i] = (int) (Math.random() * (highestNumberAbs + 1))*(Math.random()>0.5? 1:-1);
+            table[i] = (int) (Math.random() * (highestNumberAbs + 1)) * (Math.random() > 0.5 ? 1 : -1);
         }
         return table;
 

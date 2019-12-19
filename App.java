@@ -2,8 +2,6 @@ package pl.bci.g73.ITCAMP.ZadaniaCAMP.Sortowanie;
 
 import java.util.Scanner;
 
-import static java.lang.System.nanoTime;
-
 /**
  * Created by Gerard Podgórski on 03-12-19 [NowyProjekt/ZadaniaCAMP.Sortowanie]
  */
@@ -33,19 +31,8 @@ public class App {
             System.out.print("");
         }
 
+
         for (int i = 0; i < numberOfArrays; i++) {
-
-            long time0 = nanoTime();
-
-            int[] tableOryginal = TableGeneratorInt.tableGeneratorInt(tableSize, highestNumberAbs);
-            int[] tableSortedDesc = TableSorting.tableSortingIntDesc(tableOryginal);
-            int[] tableSortedAsc = TableSorting.tableSortingIntAsc(tableOryginal);
-
-            System.out.printf("Całość zajeła %s milisekund\n", (nanoTime() - time0) / 1_000);
-
-            TablePrinter.tablePrinterINT(tableOryginal);
-            TablePrinter.tablePrinterINT(tableSortedDesc);
-            TablePrinter.tablePrinterINT(tableSortedAsc);
+            new ThreadTest(tableSize, highestNumberAbs).start();
         }
-    }
-}
+    }}

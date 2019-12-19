@@ -17,7 +17,7 @@ public class TableSorting {
         int indeks2 = tableOryginalCopy.length;
 
         for (int i = 0; i < tableSorted.length; i++) {
-            temporaryBiggest = tableOryginalCopy[0];
+            temporaryBiggest = tableOryginalCopy[0];  // można np. = Integer.MAX_VALUE + autoboxing na int;
             for (int j = 0; j < indeks2; j++) {
                 if (tableOryginalCopy[j] >= temporaryBiggest) {
                     temporaryBiggest = tableOryginalCopy[j];

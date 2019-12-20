@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Gerard Podgórski on 03-12-19 [NowyProjekt/ZadaniaCAMP.Sortowanie]
  */
-public class App {
+public class AppSortowanie {
 
     public static void main(String[] args) {
         int tableSize;

@@ -19,7 +19,7 @@ public class TablePrinter {
     public static void tablePrinterINTThread(int[] table) {//wersja zsynchronizowana
         StringBuffer buffer = new StringBuffer();
 
-        buffer.append(Thread.currentThread().getName());
+        buffer.append("\u001B[34m"+Thread.currentThread().getName()+"\u001B[0m");
         buffer.append(" - Tablica " + table.length + "-elementowa: ");
 
         buffer.append("[");

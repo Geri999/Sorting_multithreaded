@@ -29,8 +29,8 @@ public class ThreadTest extends Thread {
 
         StringBuffer buffer = new StringBuffer();
 
-        buffer.append(Thread.currentThread().getName() + "   ");
-        buffer.append("Całość zajeła " + (nanoTime() - time0) / 1_000 + " milisekund\n");
+        buffer.append("\u001B[34m"+Thread.currentThread().getName() + "   "+"\u001B[0m");
+        buffer.append("\u001B[32m"+"Całość zajeła " + (nanoTime() - time0) / 1_000 + " milisekund\n"+"\u001B[0m");
 //        System.out.printf("Całość zajeła %s milisekund\n", (nanoTime() - time0) / 1_000);
 
         String all = buffer.toString();

@@ -1,4 +1,4 @@
-package pl.bci.g73.ITCAMP.ZadaniaCAMP.Sortowanie;
+package pl.bci.g73.itcamp.ZadaniaCAMP.sortowanie;
 
 import java.util.Scanner;
 
